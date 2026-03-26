@@ -1,36 +1,29 @@
 # AI Test Case Generator 
 
-This project generates test cases for software features like login and signup.
+##  Initial Version
+This was my first Python project that generated basic test cases:
+- Valid input
+- Invalid input
+- Empty input
 
-##  Features
-- Generates test cases for login and signup
-- Handles custom feature inputs
-- Interactive UI using Streamlit
+##  Current Version (Upgraded)
+This project now generates structured test cases for software features.
+
+### Features:
+- Functional, Negative, Edge, Security test cases
+- Streamlit UI
+- Color-coded output
+- CSV download
 
 ##  Tech Stack
 - Python
 - Streamlit
+- Pandas
 
 ##  How to Run
+pip install -r requirements.txt  
+streamlit run generate_test_cases_ui.py
 
-1. Install dependencies:
-pip install streamlit
-
-2. Run the app:
-streamlit run ui.py
-
-##  Example
-
-Input:
-login
-
-Output:
-- Valid login with correct username & password  
-- Invalid login with wrong password  
-- Empty username and password  
-- Password case sensitivity check  
-
-##  Future Improvements
-- AI-based test case generation  
-- More feature support  
-- Export test cases to file  
+## 💡 Future Improvements
+- AI integration
+- More features
