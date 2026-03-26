@@ -7,7 +7,7 @@ st.write("Generate structured software test cases instantly!")
 
 feature = st.text_input("Enter Feature (e.g. login, signup, payment)")
 
-# 👉 Known features list (validation साठी)
+
 valid_features = ["login", "signup", "payment"]
 
 if st.button("Generate Test Cases"):
